@@ -1,0 +1,17 @@
+site:
+  title: Ruben Sanchez Chamizo // Projects
+  start_page: aws-kube-port-scrapper::index.adoc
+content:
+  sources:
+  - url: https://github.com/rschamizo/aws-kube-port-scrapper.git
+    branches: main
+    start_path: docs 
+ui: 
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental_ui
+git:
+  ensure_git_suffix: true
+urls:
+  redirect_facility: static
