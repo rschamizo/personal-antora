@@ -1,5 +1,51 @@
-= Personal Antora Ruben Sanchez Chamizo
+Here's an image of a drag racer in action:
 
-== Quickstart
+![Drag Racing](image.png)
 
-This section offers a basic tutorial for evaluating Antora.
+Move along.
+
+## Titulo
+### Probando
+
+- Elemento 1
+- Elemento 2
+
+1. Elemento
+2. Elemento
+
+
+# Encabezado 1 
+## Encabezado 2 
+### Encabezado 3
+#### Encabezado 4
+##### Encabezado 5
+###### Encabezado 6
+
+> Esto es una cita
+>> Probando
+
+
+Hola
+
+- Elemento de lista 1
+- Elemento de lista 2
+    - Elemento de lista 3
+    - Elemento de lista 4
+        - Elemento de lista 5
+        - Elemento de lista 6
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+puts markdown.to_html
+```
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
